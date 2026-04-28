@@ -1,6 +1,6 @@
 const expres = require('express');
 
-const app = expres();
+const app = express();
 const PORT = 3000;
 
 //Middleware to parse JSON bodies
