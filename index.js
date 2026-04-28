@@ -6,7 +6,7 @@ const PORT = 3000;
 //Middleware to parse JSON bodies
 app.use(express.json());
 
-app.get('/tasks', (req, res) => {
+app.get("/", (req, res) => {
     res.json({ message: "Node Task API running" });
 });
 
