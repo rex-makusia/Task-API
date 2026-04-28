@@ -9,7 +9,7 @@ app.post("/tasks", (req, res) => {
 
     }
 
-    const tasks = {
+    const task = {
         id: nextId++,
         title,
         completed: false
