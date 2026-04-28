@@ -12,7 +12,7 @@ app.post("/tasks", (req, res) => {
     const task = {
         id: nextId++,
         title,
-        completed: false
+        completed: false,
     };
 
     tasks.push(task);
